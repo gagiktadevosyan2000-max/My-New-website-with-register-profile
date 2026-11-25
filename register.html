@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+</head>
+
+<body>
+    <a href="./index.html">Home</a>
+
+    <h1>User Registration</h1>
+
+    <fieldset>
+        <legend>Registration</legend>
+        <form>
+            <input type="text" required name="user_name" placeholder="Type your name"><br><br>
+            <input type="email" name="user_email" placeholder="email@example.com"><br><br>
+            <input required type="password" placeholder="Password"><br><br>
+
+
+
+            <label for="age_input">Type your age</label> <br>
+            <input type="number" min="0" name="user_age" id="age_input" placeholder="19"> <br><br>
+
+            <h3>Additional Questions:</h3>
+            <label for="developer_input">Do you Developer?</label> 
+            <input type="checkbox" name="user_developer" id="developer_input"><br><br>
+
+            <label for="music_input">Do you listen to music?</label>
+            <input type="checkbox" name="user_music" id="music_input"> <br><br>
+
+            <label for="hobby_input">Do you have a hobby?</label> 
+            <input type="checkbox" name="user_hobby" id="hobby_input"><br><br>
+
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+        </form>
+    </fieldset>
+
+
+</body>
+
+</html>
